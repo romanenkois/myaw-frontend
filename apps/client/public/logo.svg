@@ -1,0 +1,10 @@
+<svg width="100%" viewBox="0 0 680 680" role="img" xmlns="http://www.w3.org/2000/svg">
+  <style>
+  .ears { fill: none; stroke: #000; stroke-width: 42; stroke-linecap: round; stroke-linejoin: round; }
+  .eyes { fill: none; stroke: #000; stroke-width: 35; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <polyline class="ears" points="40,300 155,100 250,250"/>
+  <polyline class="ears" points="430,250 525,100 640,300"/>
+  <polyline class="eyes" points="185,400 295,470 185,540"/>
+  <polyline class="eyes" points="495,400 385,470 495,540"/>
+</svg>

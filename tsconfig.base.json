@@ -13,9 +13,18 @@
     "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "ignoreDeprecations": "5.0",
     "baseUrl": ".",
     "paths": {
-      "@angular-demo/authorization": ["authorization/src/index.ts"]
+      "@myaw-chat/api": ["libs/core/api/src/index.ts"],
+      "@myaw-chat/state": ["libs/core/state/src/index.ts"],
+
+      "@myaw-chat/models": ["libs/models/src/index.ts"],
+
+      "@myaw-chat/mappers": ["libs/shared/mappers/src/index.ts"],
+      "@myaw-chat/auth": ["libs/shared/auth/src/index.ts"],
+
+      "@myaw-chat/components": ["libs/ui/components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
