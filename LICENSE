@@ -1,6 +1,7 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+                   Apache License 2.0 with Additional Restrictions
+                 (AI Training Prohibition + Attribution Enforcement)
+                  Based on Apache License, Version 2.0, January 2004
+                           http://www.apache.org/licenses/
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -173,18 +174,52 @@ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
     incurred by, or claims asserted against, such Contributor by reason
     of your accepting any such warranty or additional liability.
 
-END OF TERMS AND CONDITIONS
+10. Restrictions on Artificial Intelligence Training and Usage.
+
+    Notwithstanding any other provision of this License, the following
+    additional restrictions apply:
+
+    (a) AI Training Prohibition. You may not use the Work, Derivative
+    Works, or any portion thereof as training data, fine-tuning data,
+    evaluation data, or in any other capacity for the purpose of
+    training, improving, or developing machine learning models,
+    artificial intelligence systems, large language models (LLMs),
+    or any similar automated systems, whether commercial or
+    non-commercial, without prior written permission from the
+    original Licensor.
+
+    (b) AI-Generated Derivatives. You may not use the Work as a
+    reference or input — directly or indirectly — to generate
+    Derivative Works via AI or machine learning systems on behalf
+    of a third party without explicit written consent from the
+    original Licensor.
+
+    (c) Attribution Enforcement. Any permitted use, reproduction, or
+    distribution of the Work or Derivative Works must prominently
+    credit the original author:
+
+            "Originally created by Romanenko Illya
+             (https://github.com/romanenkois)"
+
+        This notice must appear in the source code, documentation,
+        and any public-facing interface where third-party credits
+        are reasonably displayed.
+
+    (d) Violation. Any use of the Work in violation of Section 10
+    automatically terminates all rights granted under this License
+    with respect to the violating party.
+
+END OF ADDITIONAL TERMS
+
+---
 
 Copyright 2026 Romanenko Illya
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
+Licensed under the Apache License, Version 2.0, with Additional
+AI Restrictions under Section 10 (see above).
 
 Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+distributed under the License is provided on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+implied. The additional restrictions in Section 10 are supplemental
+to, and do not modify, the original Apache License 2.0 terms.
