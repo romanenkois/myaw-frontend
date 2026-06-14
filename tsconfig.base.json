@@ -16,15 +16,16 @@
     "ignoreDeprecations": "5.0",
     "baseUrl": ".",
     "paths": {
-      "@myaw-chat/api": ["libs/core/api/src/index.ts"],
-      "@myaw-chat/state": ["libs/core/state/src/index.ts"],
-
-      "@myaw-chat/models": ["libs/models/src/index.ts"],
-
-      "@myaw-chat/mappers": ["libs/shared/mappers/src/index.ts"],
-      "@myaw-chat/auth": ["libs/shared/auth/src/index.ts"],
-
-      "@myaw-chat/components": ["libs/ui/components/src/index.ts"]
+      "@myaw-frontend/configuration": ["configuration/index.ts"],
+      "@myaw-frontend/api": ["libs/core/api/src/index.ts"],
+      "@myaw-frontend/state": ["libs/core/state/src/index.ts"],
+      "@myaw-frontend/models": ["libs/shared/models/src/index.ts"],
+      "@myaw-frontend/mappers": ["libs/shared/mappers/src/index.ts"],
+      "@myaw-frontend/auth": ["libs/core/auth/src/index.ts"],
+      "@myaw-frontend/components": ["libs/ui/components/src/index.ts"],
+      "@myaw-frontend/messenger-ui": ["./libs/ui/messenger/src/index.ts"],
+      "@myaw-frontend/client-view": ["./libs/ui/client-view/src/index.ts"],
+      "@myaw-frontend/realtime": ["./libs/core/realtime/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

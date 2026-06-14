@@ -1,0 +1,7 @@
+<div>
+  @for (chat of this.chatList(); track $index) {
+  <div [routerLink]="[this.absoluteRoutesConfig.client.chat(chat.id)]">
+    {{ chat.name }}
+  </div>
+  }
+</div>
