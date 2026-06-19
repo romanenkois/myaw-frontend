@@ -1,0 +1,4 @@
+[submodule "libs/shared/contracts"]
+	path = libs/shared/contracts
+	url = https://github.com/romanenkois/myaw-contracts.git
+	branch = master
