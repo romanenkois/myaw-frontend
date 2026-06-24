@@ -1,1 +1,11 @@
-chat
+<div class="h-full flex flex-col">
+  <div class="flex-initial">
+
+  </div>
+  <div class="flex-1 min-h-0">
+    <messenger-chat-message-list-container [messages]="this.messages()" />
+  </div>
+  <div class="flex-initial">
+    <messenger-chat-bottom-bar-container />
+  </div>
+</div>

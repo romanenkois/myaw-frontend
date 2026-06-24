@@ -13,14 +13,14 @@ export const appRoutes: Route[] = [
         path: routesConfig.client.chatList,
         loadComponent: () =>
           import('@myaw-frontend/messenger-ui').then(
-            (m) => m.ChatListContainer,
+            (m) => m.ChatsPage,
           ),
       },
       {
         path: `${routesConfig.client.chat.root}/:${routesConfig.client.chat.param}`,
         loadComponent: () =>
           import('@myaw-frontend/messenger-ui').then(
-            (m) => m.ChatViewContainer,
+            (m) => m.ChatPage,
           ),
       },
       {

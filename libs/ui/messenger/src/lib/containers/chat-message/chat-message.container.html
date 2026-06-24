@@ -1,0 +1,40 @@
+<div>
+  <div>
+    <!--  -->
+  </div>
+
+  @if (this.message(); as message) {
+  <div class="flex flex-col">
+    <div>
+      @switch (message.type) {
+      <!--  -->
+      @case (MessageType.Text) {
+      <div>
+        <span> {{ message.content.text }} </span>
+      </div>
+      }
+      <!--  -->
+      @case (MessageType.Sticker) {
+      <div>
+        <img [src]="message.content.stickerImageUrl" alt="sticker" />
+      </div>
+      }
+      <!--  -->
+      @default {
+      <div>
+        <span>not supported format</span>
+      </div>
+      } }
+    </div>
+
+    <div class="flex">
+      <div class="flex-1 min-w-0">
+        <!-- reactions and stuff -->
+      </div>
+      <div class="flex-initial">
+        <span>{{ message.timestamp | date: 'd/M/yy, hh:mm' }}</span>
+      </div>
+    </div>
+  </div>
+  }
+</div>

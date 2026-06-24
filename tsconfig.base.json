@@ -22,7 +22,7 @@
       "@myaw-frontend/models": ["libs/shared/models/src/index.ts"],
       "@myaw-frontend/mappers": ["libs/shared/mappers/src/index.ts"],
       "@myaw-frontend/auth": ["libs/core/auth/src/index.ts"],
-      "@myaw-frontend/components": ["libs/ui/components/src/index.ts"],
+      "@myaw-frontend/myaw-components": ["libs/ui/components/src/index.ts"],
       "@myaw-frontend/messenger-ui": ["./libs/ui/messenger/src/index.ts"],
       "@myaw-frontend/client-view": ["./libs/ui/client-view/src/index.ts"],
       "@myaw-frontend/realtime": ["./libs/core/realtime/src/index.ts"]

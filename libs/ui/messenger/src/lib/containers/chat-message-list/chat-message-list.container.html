@@ -1,0 +1,5 @@
+<div>
+  @for (message of this.messages(); track $index) {
+  <messenger-chat-message-container [message]="message" />
+  }
+</div>
